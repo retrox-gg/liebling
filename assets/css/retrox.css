@@ -10,14 +10,14 @@
 }
 
 .retrox_hero_header {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 3rem;
     color: rgb(232, 230, 227);
     display: block;
 }
 
 .retrox_hero_description {
-    font-weight: semibold;
+    font-weight: 600;
     font-size: 1.5rem;
     color: rgba(232, 230, 227, 0.75);
     display: block;

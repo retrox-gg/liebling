@@ -29,8 +29,8 @@ into the {body} of the default.hbs template --}}
   {{!-- Inject styles of the hero image to make it responsive --}}
   {{> hero background=@site.cover_image}}
   <div class="retrox_hero_content">
-    <span class="retrox_hero_header">{{@site.title}}</span>
-    <span class="retrox_hero_description">{{@site.description}}</span>
+    <span class="retrox_hero_header" data-animate="fade-down">{{@site.title}}</span>
+    <span class="retrox_hero_description" data-animate="fade-down">{{@site.description}}</span>
   </div>
   </section>
   <div class="l-content">
