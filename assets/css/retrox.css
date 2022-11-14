@@ -5,16 +5,17 @@
     margin-left: auto;
     margin-right: auto;
     min-height: 500px;
-    background-color: white;
     font-family: 'Poppins', sans-serif;
 }
 
 .retrox_hero_header {
     font-weight: bold;
     font-size: 3rem;
+    color: rgb(232, 230, 227);
 }
 
 .retrox_hero_description {
     font-weight: semibold;
     font-size: 1.5rem;
+    color: rgba(232, 230, 227, 0.75);
 }
