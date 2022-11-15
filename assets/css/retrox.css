@@ -24,3 +24,16 @@
     display: block;
     max-width: 42rem;
 }
+
+.showcase-button {
+    background-color: #1d169c;
+    border-radius: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.7rem;
+    max-width: 42rem;
+    font-size: 1.2rem;
+    box-sizing: content-box;
+    color: rgb(232, 230, 227);
+  }
