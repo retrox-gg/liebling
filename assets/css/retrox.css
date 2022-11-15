@@ -37,4 +37,5 @@
     box-sizing: content-box;
     color: rgb(232, 230, 227);
     font-weight: 600;
+    display: inline-block;
   }
