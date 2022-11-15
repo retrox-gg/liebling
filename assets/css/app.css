@@ -1697,7 +1697,8 @@ _:-ms-fullscreen {
   display: none;
 }
 .m-hero {
-  background-color: var(--secondary-subtle-color);
+  background: rgb(2,0,36);
+  background: linear-gradient(356deg, rgba(2,0,36,1) 0%, rgba(19,19,125,1) 35%, rgba(117,0,255,0.814145726650035) 100%); 
   flex-direction: column;
   min-height: 365px;
   overflow: hidden;
