@@ -27,27 +27,27 @@ into the {body} of the default.hbs template --}}
 {{!-- Special header.hbs partial to generate the <header> tag --}}
 {{> header background=@site.cover_image}}
 
-<main class="main-wrap">
-  {{!-- Inject styles of the hero image to make it responsive --}}
-  {{> hero background=@site.cover_image}}
-
-  <div id="myModal" class="modal fade">
-    <div class="modal-dialog modal-confirm">
-      <div class="modal-content">
-        <div class="modal-header justify-content-center">
-          <div class="icon-box">
-            <i class="material-icons">&#xE876;</i>
-          </div>
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<div id="myModal" class="modal fade">
+  <div class="modal-dialog modal-confirm">
+    <div class="modal-content">
+      <div class="modal-header justify-content-center">
+        <div class="icon-box">
+          <i class="material-icons">&#xE876;</i>
         </div>
-        <div class="modal-body text-center">
-          <h4>Great!</h4>	
-          <p>Your account has been created successfully.</p>
-          <button class="btn btn-success" data-dismiss="modal"><span>Start Exploring</span> <i class="material-icons">&#xE5C8;</i></button>
-        </div>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      </div>
+      <div class="modal-body text-center">
+        <h4>Great!</h4>	
+        <p>Your account has been created successfully.</p>
+        <button class="btn btn-success" data-dismiss="modal"><span>Start Exploring</span> <i class="material-icons">&#xE5C8;</i></button>
       </div>
     </div>
   </div>
+</div>
+
+<main class="main-wrap">
+  {{!-- Inject styles of the hero image to make it responsive --}}
+  {{> hero background=@site.cover_image}}
 
   <div class="m-hero__content" data-animate="fade-down">
     <div class="retrox_hero_content">
