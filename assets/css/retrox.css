@@ -20,7 +20,7 @@
 .retrox_hero_description {
     font-weight: 600;
     font-size: 1.2rem;
-    color: rgb(232, 230, 227, 1);
+    color: rgb(232, 230, 227, 1) !important;
     display: block;
     max-width: 42rem;
 }
