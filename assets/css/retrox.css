@@ -23,6 +23,7 @@
     color: rgb(232, 230, 227, 1) !important;
     display: block;
     max-width: 42rem;
+    margin-bottom: 3rem;
 }
 
 .showcase-button {
