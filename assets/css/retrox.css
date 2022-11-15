@@ -11,7 +11,7 @@
 .retrox_hero_header {
     font-weight: 800;
     font-size: 3rem;
-    color: rgb(232, 230, 227);
+    color: rgb(232, 230, 227, 1);
     display: block;
     margin-bottom: 1rem;
     max-width: 42rem;
@@ -20,7 +20,7 @@
 .retrox_hero_description {
     font-weight: 600;
     font-size: 1.2rem;
-    color: rgba(232, 230, 227, 0.75);
+    color: rgb(232, 230, 227, 1);
     display: block;
     max-width: 42rem;
 }
