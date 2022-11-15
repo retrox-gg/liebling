@@ -4,7 +4,8 @@
     width: 1320px;
     margin: auto;
     font-family: 'Poppins', sans-serif;
-    opacity: 1 !important;
+    opacity: 1;
+    position: relative;
 }
 
 .retrox_hero_header {
