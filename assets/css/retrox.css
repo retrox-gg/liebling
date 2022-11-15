@@ -20,6 +20,7 @@
     color: rgb(232, 230, 227);
     font-weight: 600;
     display: inline-block;
+    border: none;
 }
 
 .retrox_hero_header {
