@@ -11,6 +11,33 @@ It can be used also as the home page or the default page.
   <link rel="preload" href="{{asset "js/home.js"}}" as="script" />
 
   <script src="https://kit.fontawesome.com/3528a730d4.js" crossorigin="anonymous"></script>
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
 {{/contentFor}}
 
 {{!-- This block loads specific styles for the index page --}}
@@ -35,7 +62,7 @@ into the {body} of the default.hbs template --}}
     <div class="retrox_hero_content">
       <span class="retrox_hero_header">Cybernetic Minecraft adventure awaits!</span>
       <span class="retrox_hero_description">Retrox is a unique, cyber-themed Minecraft server.<br/>Join us and explore for yourself!</span>
-      <a>
+      <a id="myBtn">
         <div class="showcase-button" style="background-color: #1d169c;">
           <i class="fa-solid fa-gamepad" style="padding-right: 5px;"></i> Play Now
         </div>
@@ -120,6 +147,16 @@ into the {body} of the default.hbs template --}}
     {{pagination}}
   </div>
 </main>
+
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+  </div>
+
+</div>
 
 {{!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs --}}
 {{#contentFor "scripts"}}
