@@ -35,8 +35,8 @@
 }
 
 @-webkit-keyframes out {
-  0%   { -webkit-transform: translateY(-5px); }
-  100% { -webkit-transform: translateY(0px); }
+  0%   { -webkit-transform: translateY(0px); }
+  100% { -webkit-transform: translateY(-5px); }
 }
 
 .retrox_hero_header {
