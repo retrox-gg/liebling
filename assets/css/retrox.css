@@ -23,6 +23,11 @@
     border: none;
 }
 
+.retrox_hero_content button:hover {
+  box-shadow: var(--article-shadow-hover), 0 0 0 transparent;
+  transform: translateY(-5px);
+}
+
 .retrox_hero_header {
     font-weight: 800;
     font-size: 3rem;
