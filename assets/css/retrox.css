@@ -26,6 +26,7 @@
 .retrox_hero_content button:hover {
   box-shadow: var(--article-shadow-hover), 0 0 0 transparent;
   transform: translateY(-5px);
+  transition-duration: 0.25s;
 }
 
 .retrox_hero_header {
