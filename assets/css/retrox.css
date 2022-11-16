@@ -21,12 +21,12 @@
     font-weight: 600;
     display: inline-block;
     border: none;
-    -webkit-animation: in 0.25s;
+    -webkit-animation: out 0.25s;
 }
 
 .retrox_hero_content button:hover {
-  box-shadow: var(--article-shadow-hover), 0 0 0 transparent;
-  -webkit-animation: out 0.25s;
+    box-shadow: var(--article-shadow-hover), 0 0 0 transparent;
+    -webkit-animation: in 0.25s;
 }
 
 @-webkit-keyframes in {
